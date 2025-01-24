@@ -1,4 +1,3 @@
-// components/Add.js
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -34,7 +33,6 @@ export function Edit({ item, updateItem }) {
     setQuantity("");
   };
 
-  // Update state when item prop changes
   useEffect(() => {
     setName(item.name);
     setCategory(item.category);
