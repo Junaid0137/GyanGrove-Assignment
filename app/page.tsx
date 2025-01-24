@@ -21,7 +21,6 @@ export default function Home() {
   };
 
   const deleteItem = (id) => {
-    console.log("Deleting item with id:", id);
     setItems(items.filter((item) => item.id !== id));
   };
 
